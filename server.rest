@@ -1,0 +1,24 @@
+### GET ADMIN
+GET http://localhost:3000/time
+### GET ADMIN COM PARAMETRO
+GET http://localhost:3000/time/corinthians
+### ACESSANDO VIA POST
+POST http://localhost:3000/time
+Content-Type: application/json
+
+{
+    "nome":"Corinthians",
+    "cor": "preto"
+}
+### ACESSANDO VIA PATCH
+PATCH http://localhost:3000/time/Corintia
+### ACESSANDO VIA PATCH
+PUT http://localhost:3000/time/Corintia
+### ACESSANDO VIA PATCH
+DELETE  http://localhost:3000/time/Corintia
+
+//Com rotas tbm
+### GET USERS
+GET http://localhost:3000/user
+### GET USERS  COM PARAMETRO
+GET http://localhost:3000/user/147
